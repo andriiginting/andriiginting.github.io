@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/andriiginting.github.io',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
