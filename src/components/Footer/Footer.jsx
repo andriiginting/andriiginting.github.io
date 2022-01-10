@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
+import { aboutData } from '../../mock/data';
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
+  const { footer } = aboutData;
   const { networks } = footer;
 
   return (
@@ -33,12 +33,6 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
-          </a>
-        </p>
       </Container>
     </footer>
   );

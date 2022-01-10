@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: "Heyo folks 👋 I'm",
   name: 'Andriiginting',
-  subtitle: 'I am a Software Engineer focusing on Android',
-  cta: "Let's take a look",
+  subtitle: 'I am an Android Engineer in Indonesia',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -98,8 +98,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Wanna talk something about tech?',
-  btn: "Let's grab some coffee ☕",
+  cta: 'Wanna talk something about tech? ☕',
+  btn: 'Email Me',
   email: 'andris.ginting@gmail.com',
 };
 
